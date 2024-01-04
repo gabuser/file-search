@@ -4,7 +4,7 @@
 #segunda classe irá realizar a busca herdando os parâmetros que o usuário definiu
 
 import os
-import readlines
+import readline
 
 class Usuario: 
     def __init__(self,caminho, documento):
