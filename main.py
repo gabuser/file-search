@@ -16,7 +16,7 @@ class Buscar(Usuario):
     
      def __init__(self, caminho, documento):
         try:
-            super().__init__(self,caminho, documento)
+            super().__init__(caminho, documento)
             for self.nov_cami, self.diret, self.arquiv in os.walk(os.getcwd()): 
                 
                 os.chdir(self.nov_cami)
